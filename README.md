@@ -1,2 +1,2 @@
-# gorillatag
+# Gorilla Tag
 gorilla tag
