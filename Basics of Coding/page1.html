@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title> <!--this is whatever the website is called-->
+    <!--the tag <style> is how you implement css into the html and connect the pages. If you do it in order you will see the difference.-->
+    <style type="text/css"> 
+        body {
+            background: #999; 
+        }
+    </style>
+    </head>
+    <!--heres another way you could do this which causes all the pages to be the same color instead of having to type it into every single sheet you have-->
+    <!--you would just copy paste this into every sheet instead of making the <style> tags-->
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>My Website</h1> <!--this is whats going to show up on the actual page because it is in the body section, the <h> tag stands for heading so its going to be listed at the top of the page-->
+    <ul>
+        <li>Home</li> <!--this is just the name of the 1st page, it could be home, page 1 or whatever you want the 1st/home page to be called-->
+        <li><a href="page2.html">Page 2</a></li> <!--this is the second page, (you have to have actual html pages open for this to work)-->
+        <li><a href="page3.html">Page 3</a></li> <!--how this whole section is working(under <ul>) is creating a list of links that you click through, I assume you copied the code so you can see for yourself-->
+    </ul>
+    <h2>This is my homepage</h2> <!--this stands for heading 2, this is just a second heading with more information and the 2 indicates that it is smaller, you could also make an <h1> tag to make the text bigger-->
+    <p>this is all of my page 1 content</p> <!--the <p> stands for paragraph and it just some information under the heading, you can later change the font with CSS etc...-->
+</body>
+</html>
